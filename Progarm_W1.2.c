@@ -5,7 +5,7 @@ int b;
 int main()
 {
 printf("Enter a,b : ");
-scanf("%d,%d", &a, &b);
+scanf_s("%d,%d", &a, &b);
 int plus1 = a+b;
 int plus2 = a-b;
 int plus3 = a*b;
